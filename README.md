@@ -31,7 +31,7 @@ terraform apply main.tfplan
 
 
 # Test/Validate/Run as you choose
-# ssh -i <Key> ec2-user@<IP> #
+# ssh -i <Key> ec2-user@IPAddress #
 
 
 #Cleanup your Infrastructure
