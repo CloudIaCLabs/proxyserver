@@ -1,5 +1,5 @@
 
-# Build yourown VPC with pulic and private networks and ProxyServer in AWS Cloud using terraform by Cloud IaC Labs <br/>
+Build yourown VPC with pulic and private networks and ProxyServer in AWS Cloud using terraform by Cloud IaC Labs <br/>
 
 
 # Install aws cli & setup your Secure shell auth <br/>
