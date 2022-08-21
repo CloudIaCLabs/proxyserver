@@ -10,8 +10,8 @@ make sure to update "variables.tf" with your account specific parameters, as wel
 Don't forget to un-comment sections where you updated <br/>
 
 
-# Comment and/or un-comment main.tf section depending on your registered domain status/Domain registar #
-# you may need to do manual DNS configuation if  you are hosting your DNS elsewhere #
+Comment and/or un-comment main.tf section depending on your registered domain status/Domain registar <br/>
+you may need to do manual DNS configuation if  you are hosting your DNS elsewhere <br/>
 
 
 #Terraform IaC Example for creating Proxy Server aws cloud on demand
