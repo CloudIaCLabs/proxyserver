@@ -21,8 +21,9 @@ variable "dns_name" {
   /* Use your own registered DNS name to link with public IP*/
 
 }
-
 #######################################################
+
+
 # Variables with default values
 
 variable "aws_region" {
