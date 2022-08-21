@@ -1,13 +1,13 @@
 
-# Build yourown VPC with pulic and private networks and ProxyServer in AWS Cloud using terraform by Cloud IaC Labs <br />
+# Build yourown VPC with pulic and private networks and ProxyServer in AWS Cloud using terraform by Cloud IaC Labs <br/>
 
 
-# Install aws cli & setup your Secure shell auth
-# Install terraform [terraform --version]
+# Install aws cli & setup your Secure shell auth <br/>
+# Install terraform [terraform --version] <br/>
 
 
-# make sure to update "variables.tf" with your account specific parameters, as well as validate default values #
-### Don't forget to un-comment sections where you updated ###
+# make sure to update "variables.tf" with your account specific parameters, as well as validate default values # <br/>
+### Don't forget to un-comment sections where you updated ### <br/>
 
 
 # Comment and/or un-comment main.tf section depending on your registered domain status/Domain registar #
