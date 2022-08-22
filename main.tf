@@ -36,7 +36,7 @@ resource "aws_subnet" "public" {
   map_public_ip_on_launch = "true"
 
   tags = {
-    Name = "public-subnet"
+    Name = "public-subnet01"
   }
 }
 
@@ -45,7 +45,7 @@ resource "aws_subnet" "private" {
   cidr_block        = "10.10.20.0/24"
   availability_zone = var.availability_zone_private
   tags = {
-    Name = "private1-subnet"
+    Name = "private-subnet01"
   }
 }
 
@@ -134,7 +134,7 @@ resource "aws_instance" "proxyserver" {
     yum update -y
     yum upgrade -y
     yum install squid.x86_64 -y
-    sleep 10
+    sleep 20
     cp /etc/squid/squid.conf squid.conf_backup_$(date +"%Y_%m_%d_%s")
     sed -i  '4s/^/forwarded_for off\'$'\n/' /etc/squid/squid.conf
     sleep 5
