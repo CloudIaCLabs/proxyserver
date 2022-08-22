@@ -14,7 +14,7 @@ Comment and/or un-comment main.tf section depending on your registered domain st
 you may need to do manual DNS configuation if  you are hosting your DNS elsewhere <br/>
 
 
-#Terraform IaC Example for creating Proxy Server aws cloud on demand <br/>
+#Terraform IaC Example for creating Proxy Server in aws cloud, on demand <br/>
 #Destroy when done, or keep running | repeat process ad-hoc as needed <br/>
 
 
